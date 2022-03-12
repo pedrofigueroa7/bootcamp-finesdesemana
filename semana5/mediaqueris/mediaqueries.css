@@ -1,0 +1,20 @@
+h1{
+    background-color: aquamarine;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article{
+    border: 3px solid limegreen;
+    margin: 10px;
+}
+main{
+    display: flex;
+}
+@media screen and(max-width: 768px) {
+    h1{
+        background-color: rebeccapurple;
+        color: salmon;
+        font-size: 40px;
+    }
+}
+    
