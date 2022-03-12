@@ -1,0 +1,24 @@
+*{
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+.etiqueta-logo{
+    font-size: 40px;
+    flex-grow: 5;
+}
+.etiqueta-logo1{
+      flex-grow: 1;
+}
+.etiqueta-logo2{
+    flex-grow: 1;
+}
+.etiqueta-logo3{
+    flex-grow: 1;
+}
+.etiqueta-logo4{
+    flex-grow: 1;
+}

@@ -1,0 +1,13 @@
+.hexadecimal{
+    background-color: #34afee;
+    color: #fff;
+}
+.rgb{
+    background-color: rgb(103, 173, 121);
+}
+.rgb>p{
+    color: #18658b;
+}
+.grad{
+    background-image: linear-gradient(180deg,blue,yellow);
+}

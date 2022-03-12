@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+    --padding-container: 80px 0;
+    --color-title: #001A49;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+    
+    
+
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    
+    max-height: 10px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+
+
+/* Nav */
+
+.nav {
+    --padding-container: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav__title {
+    font-weight: 300;
+}
+
+.nav__link {
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 1em;
+    align-items: baseline;
+}
+
+.nav__items {
+    list-style: none;
+}
+
+.nav__links {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav__menu {
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.nav__img {
+    display: block;
+    width: 30px;
+}
+
+
+.nav__close {
+    display: var(--show, none);
+}
+
+.boton{
+    background-color: #faa214;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border: none;    
+    cursor: pointer;
+    margin-top: 10px;
+}
+.boton:hover{
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #faa214;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+
+/* About */
+
+.about {
+    text-align: left;
+}
+
+.subtitle {
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+
+.about__paragraph {
+    line-height: 1.7;
+}
+
+.about__main {
+    padding-top: 20px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+}
+.about__main2 {
+    
+    padding-top: 0px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+}
+
+
+.about__icons {
+    
+    gap: 1em;
+    justify-items: left;
+    width: 180px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.about__icon {
+    width: 180px;
+}
+
+/* Knowledge */
+
+.knowledge {
+   
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    overflow: hidden;
+}
+
+.knowledge__container{
+    display: grid;
+    grid-template-columns: 30% 65%;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.knowledge__container2{
+    display: grid;
+    grid-template-columns: 60% 35%;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.knowledge__container3{
+   
+    display: grid;
+    grid-template-columns: 39% 59%;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.knowledge__picture{
+    max-width: 500px;
+}
+
+.knowledge__paragraph{
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.knowledge__img{
+    width: 100%;
+    display: block;
+}
+
+
+
+
+/* Footer */
+.logo-footer{
+    width: auto;
+    border-radius: 50%;
+}
+.textos-footer{
+    line-height: 20px;
+    width: 145px;
+    list-style: none;
+    font-size: 13px;
+    
+}
+.titulo-textos-footer{
+    margin: 0;
+}
+
+.about__main_footer {
+    padding: 40px 60px 40px 60px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns:250px 136px 136px 136px;
+    background-color: #ecebea;
+}
+.parrafo-1-footer{
+    font-size: 13px;
+}
+
+
+
+
+
+

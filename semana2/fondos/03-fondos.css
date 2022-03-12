@@ -1,0 +1,20 @@
+body{
+    background-image: url(./pinguinos.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card{
+    width: 400px;
+    height: 600px;
+    background-image: url(./nieve.jpg);
+    background-size: cover;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+.circulo{
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 50%;
+    box-shadow: -20px 20px 20px skyblue;
+}

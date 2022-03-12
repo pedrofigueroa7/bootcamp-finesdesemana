@@ -1,0 +1,28 @@
+.prueba{
+    color: blue;
+    border: 1px solid aquamarine;
+}
+li{
+    color: blue;
+}
+#btn{
+    background-color: blueviolet;
+    border-radius: 40px;
+}
+article,h1{
+    background-color: hotpink;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+    
+}
+tr:nth-of-type(odd){
+    background-color: green;
+}
+tr:nth-of-type(even){
+    background-color: red;
+}
+ul>li>p{
+    color: green;
+}
