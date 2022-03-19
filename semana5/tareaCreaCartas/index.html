@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body class="bg-warning">
+  <div class=" card container w-50 d-flex p-3 bg-warning">
+
+    <!--input de imagen-->
+    <h3 >Creador de card <br>seleccione una imagen para la card</h3>
+    <input type="file" id="file" style="border-radius: 5px;"  class="btn btn-success" accept="image/*" onchange="mostrar()" /><br>
+    <!--input de imagen-->
+    <label for="titulo" >agregue un titulo</label><br>
+    <input type="text" style="background-color: rgb(243, 231, 128);" id="titulo" onkeyup="mostrarText()"/><br><br>
+    <!--input de parrafo-->
+    <textarea id="parrafo" name="textarea" style="background-color: rgb(243, 231, 128);" rows="10" cols="50" onkeypress="mostrarParrafo()"></textarea>
+    <br>
+  </div>
+
+
+  <!--card-->
+  <hr>
+  <div  class="card container text-center border-success" style="width: 18rem;">
+    <img id="img" class="card-img-top" src="./img/comida1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-success" id="card title">Card title</h5>
+      <p class="card-text text-success" id="card parrafo">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <!--vinculo a Javascript-->
+  <script src="./js/main.js">
+
+  </script>
+
+</body>
+
+</html>
